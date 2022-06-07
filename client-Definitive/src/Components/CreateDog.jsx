@@ -116,6 +116,17 @@ alert("El perro fue creado con exito");
     })
     dispatch(getDogs());
     form.reset();
+    setInput({
+      name: '',
+    height: '',
+    minHeight: '',
+    maxHeight: '',
+    weight: '',
+    minWeight: '',
+    maxWeight: '',
+    life_span: '',
+    breedGroup: ''
+    })
   }else{
     alert("El formulario tiene errores")
   }

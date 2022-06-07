@@ -162,7 +162,7 @@ return(
                <p>Weight: {dog.weight}</p> 
             </div>
         </div>
-    )):<div className="NonCoincidence">No se han encontrado coincidencias :(</div>}
+    )):<div className="NonCoincidence">No se han encontrado coincidencias</div>}
     </div>
 
     <div>
