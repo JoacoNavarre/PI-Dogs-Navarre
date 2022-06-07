@@ -12,6 +12,14 @@
 
 ## Ojalá les guste!
 
+## A little preview
+<p align="left">
+  <img height="150" src="https://github.com/JoacoNavarre/PI-Dogs-Navarre/blob/master/pics-Readme/Captura%20de%20pantalla%202022-06-07%20124149.png" />
+  <img height="150" src="https://github.com/JoacoNavarre/PI-Dogs-Navarre/blob/master/pics-Readme/Captura%20de%20pantalla%202022-06-07%20124349.png" />
+  <img height="150" src="https://github.com/JoacoNavarre/PI-Dogs-Navarre/blob/master/pics-Readme/Captura%20de%20pantalla%202022-06-07%20124429.png" />
+  <img height="150" src="https://github.com/JoacoNavarre/PI-Dogs-Navarre/blob/master/pics-Readme/Captura%20de%20pantalla%202022-06-07%20124530.png" />
+</p>
+
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
