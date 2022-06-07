@@ -1,0 +1,30 @@
+
+.btnIH{
+    margin-left: 30px;
+}
+.detailCtn{
+  margin: 20px;
+  width: 20rem;
+  background-color:white;
+  border:none;
+  padding: 5px;
+  box-shadow: 0px 0px 5px 1px black; /*#888888;*/
+  border-radius: 10px;
+  justify-content:center;
+}
+.detailName{
+    display: flex;
+    justify-content: center;
+}
+.detailTemp{
+  display: flex;
+  margin-left: 10px;
+}
+.caracteristicas{
+  margin-left: 10px;
+}
+.imgDetailCtn{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}

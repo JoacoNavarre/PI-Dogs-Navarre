@@ -1,0 +1,9 @@
+.create-container{
+    display: flex;
+    justify-content: center;
+}
+.btnCreate{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,93 @@
+html{
+  /* background-image : url('https://static.vecteezy.com/system/resources/previews/002/092/090/non_2x/black-animal-paw-pattern-free-vector.jpg'); */
+  /* background-image : url('https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-functional-dog-food-promotion-main-map-image_144794.jpg'); */
+  background-image: url('https://previews.123rf.com/images/coffeeein/coffeeein1611/coffeeein161100374/65979814-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E7%8A%AC%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB-%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E3%80%81%E8%89%B2%E4%BB%98%E3%81%8D%E3%81%AE%E8%83%8C%E6%99%AF%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* .btnSearch{
+  display: inline-block;
+  padding: 3px;
+  margin-top: 1.5px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+
+} */
+.ordenamiento{
+  display: block;
+}
+
+input::placeholder{
+  color:#333;
+}
+.spanOrder{
+  display: flex;
+  justify-content: center;
+}
+.selectOrder{
+  display: flex;
+  justify-content: center;
+}
+
+.dogsContainer{
+  margin: 20px;
+  width: 20rem;
+  background-color:white;
+  border:none;
+  padding: 5px;
+  box-shadow: 0px 0px 5px 1px black;
+  border-radius: 10px;
+  justify-content:center;
+}
+.dogsContainer a {
+  color: #333;
+  text-decoration: none;
+}
+.dogName{
+  display: flex;
+  justify-content: center;
+}
+.dogTemper{
+  display: flex;
+  margin-left: 10px;
+}
+.imgCtn{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.img{
+  width: 300px;
+  height: 250px;
+  border-radius: 5px
+}
+.img:hover{
+  transform: scale(1.5);
+}
+
+.NonCoincidence{
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-top: 30px;
+}

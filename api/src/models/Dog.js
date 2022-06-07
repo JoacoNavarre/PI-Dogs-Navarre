@@ -15,10 +15,26 @@ module.exports = (sequelize) => {
       foreginKey: true
     },
     weight:{
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    minWeight:{
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    maxWeight:{
       type: DataTypes.INTEGER,
       allowNull: false,
     },
     height:{
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    minHeight:{
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    maxHeight:{
       type: DataTypes.INTEGER,
       allowNull: false,
     },
@@ -28,15 +44,21 @@ module.exports = (sequelize) => {
     },
     image:{
       type: DataTypes.TEXT,
-      defaultValue: "https://s1.eestatic.com/2020/08/11/curiosidades/mascotas/mascotas-perros-curiosidades_512209327_157471851_1706x960.jpg" 
+      defaultValue: "https://s1.eestatic.com/2020/08/11/curiosidades/mascotas/mascotas-perros-curiosidades_512209327_157471851_1706x960.jpg", 
+      allowNull: true,
     },
     breedGroup:{
       type: DataTypes.STRING,
       allowNull: false
     },
     temperament:{
-      type: DataTypes.STRING,
+      type: DataTypes.ARRAY(DataTypes.STRING), 
       allowNull: false,
+    },
+    createdInDB:{
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true
     }
   });
 };
